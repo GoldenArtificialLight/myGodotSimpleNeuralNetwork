@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b7fhv4trhv4l6"]
+
+[ext_resource type="PackedScene" uid="uid://bs3r3w4bj4w8t" path="res://entity.tscn" id="1_pyidc"]
+[ext_resource type="PackedScene" uid="uid://d1wpxojp5dtm7" path="res://platform.tscn" id="2_vvh5c"]
+
+[node name="root" type="Node2D" unique_id=535927221]
+
+[node name="CharacterBody2D" parent="." unique_id=889192643 instance=ExtResource("1_pyidc")]
+position = Vector2(584, 551)
+
+[node name="PlayerPlatform" parent="." unique_id=1469505974 instance=ExtResource("2_vvh5c")]
+position = Vector2(579.00006, 647)
+
+[node name="EnemyPlatform" parent="." unique_id=621244430 instance=ExtResource("2_vvh5c")]
+position = Vector2(566.00006, 1.999999)
