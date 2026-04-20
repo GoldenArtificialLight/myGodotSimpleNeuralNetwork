@@ -1,14 +1,12 @@
-[gd_scene format=3 uid="uid://blxc57p510oou"]
+[gd_scene format=3 uid="uid://bs3r3w4bj4w8t"]
 
 [ext_resource type="Texture2D" uid="uid://ddkqt2jy67xmh" path="res://icon.svg" id="1_6e8rh"]
-[ext_resource type="Script" uid="uid://dvpbtagjarynj" path="res://Scripts/Entity.cs" id="1_uqc13"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uqc13"]
 
 [node name="Entity" type="CharacterBody2D" unique_id=889192643]
 scale = Vector2(4, 4)
 collision_mask = 6
-script = ExtResource("1_uqc13")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1257218683]
 position = Vector2(1.9073486e-06, -1.9073486e-06)

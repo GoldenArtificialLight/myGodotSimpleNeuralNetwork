@@ -11,12 +11,25 @@ config_version=5
 [application]
 
 config/name="neuralNetwork"
-config/features=PackedStringArray("4.6", "Forward Plus")
+config/tags=PackedStringArray("experiment")
+run/main_scene="uid://b7fhv4trhv4l6"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1000
+window/size/viewport_height=800
 
 [dotnet]
 
 project/assembly_name="neuralNetwork"
+
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Platform"
+2d_physics/layer_3="Bomb"
 
 [physics]
 

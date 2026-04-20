@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://bhcsqlu7rwd77"]
+[gd_scene format=3 uid="uid://b7fhv4trhv4l6"]
 
-[ext_resource type="PackedScene" uid="uid://blxc57p510oou" path="res://entity.tscn" id="1_pyidc"]
-[ext_resource type="PackedScene" uid="uid://d1wpxojp5dtm7" path="res://Scenes/platform.tscn" id="2_vvh5c"]
+[ext_resource type="PackedScene" uid="uid://bs3r3w4bj4w8t" path="res://entity.tscn" id="1_pyidc"]
+[ext_resource type="PackedScene" uid="uid://d1wpxojp5dtm7" path="res://platform.tscn" id="2_vvh5c"]
 
 [node name="root" type="Node2D" unique_id=535927221]
 
@@ -16,9 +16,8 @@ position = Vector2(522.99994, 702)
 rotation = -9.5385316e-05
 
 [node name="TopPlayer" parent="." unique_id=355578282 instance=ExtResource("1_pyidc")]
-position = Vector2(529.99994, 100)
+position = Vector2(529.99994, 98)
 rotation = 3.1415927
-up_direction = Vector2(0, 1)
 
 [node name="LeftWall" parent="." unique_id=1350024806 instance=ExtResource("2_vvh5c")]
 position = Vector2(1057, 432)

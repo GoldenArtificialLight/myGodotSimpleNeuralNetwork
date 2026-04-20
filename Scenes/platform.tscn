@@ -4,8 +4,10 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mi635"]
 
-[node name="StaticBody2D" type="StaticBody2D" unique_id=1469505974]
+[node name="Platform" type="StaticBody2D" unique_id=1469505974]
 scale = Vector2(58.64, 5.4800005)
+collision_layer = 2
+collision_mask = 5
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1102788426]
 scale = Vector2(20, 20)
