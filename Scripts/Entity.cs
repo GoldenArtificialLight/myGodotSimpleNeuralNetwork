@@ -33,7 +33,7 @@ public partial class Entity : CharacterBody2D
 	public CharacterBody2D? bomb;
 	#nullable disable
 
-	public NeuralNetwork nn = new(Neuron.Factory(3,3));
+	public NeuralNetwork nn = new([Neuron.Factory(5,3), Neuron.Factory(3,5)]);
 
 	public const float Speed = 300.0f;
 
